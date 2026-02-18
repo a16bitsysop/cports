@@ -1,6 +1,6 @@
 pkgname = "spectacle"
 pkgver = "6.6.0"
-pkgrel = 0
+pkgrel = 1
 build_style = "cmake"
 hostmakedepends = [
     "cmake",
@@ -37,6 +37,7 @@ makedepends = [
     "xcb-util-devel",
     "zxing-cpp-devel",
 ]
+depends = ["tesseract"]
 pkgdesc = "KDE Screenshot capture utility"
 license = "GPL-2.0-or-later"
 url = "https://apps.kde.org/spectacle"
